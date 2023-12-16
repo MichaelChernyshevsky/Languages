@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "134395379318",
+    "project_id": "flutter-save",
+    "storage_bucket": "flutter-save.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134395379318:android:4d7f452f97de4ec9b06957",
+        "android_client_info": {
+          "package_name": "com.example.flutter_save"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCK58SWUpDZWnCx2PwS8lABZlpmkFDGQao"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

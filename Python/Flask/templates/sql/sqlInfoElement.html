@@ -1,0 +1,19 @@
+
+{% extends 'bodies/sql/body_universal.html' %}
+
+{% block title %}
+{{postInfo.id}}
+{% endblock %}
+
+{% block body %}
+<h1> Info about  {{postInfo.id}} id </h1>
+<div>
+    <p><h5>{{postInfo.title}}</h5></p>
+    <p><h5>{{postInfo.text}}</h5></p>
+    <p><h5>{{postInfo.intro}}</h5></p>
+    <p><h5>{{postInfo.data}}</h5></p>
+    <a href="/sql/InfoElement/{{postInfo.id}}/delete" class="btn btn-warning">delete</a>
+    <a href="/sql/InfoElement/{{postInfo.id}}/update" class="btn btn-warning">update</a>
+
+</div>
+{% endblock %}

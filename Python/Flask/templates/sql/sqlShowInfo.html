@@ -1,0 +1,23 @@
+
+{% extends 'bodies/sql/body_universal.html' %}
+
+{% block title %}
+Show info
+{% endblock %}
+
+{% block body %}
+<h1>Text from data base </h1>
+<h2>First title</h2>
+{{ articles[0].title}}
+<h2>all text from data base</h2>
+{% for element in articles %}
+<div>
+    <h3>{{ element.title }}</h3>
+    <p>{{ element.info }}</p>
+    <p><b>Date: {{element.date.date()}}</b></p>
+
+    <a href="/sql/InfoElement/{{element.id}}" class="btn btn-warning">Show more</a>
+</div>
+{% endfor %}
+
+{% endblock %}

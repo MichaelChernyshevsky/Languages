@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "153440091164",
+    "project_id": "cursach-f64af",
+    "storage_bucket": "cursach-f64af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153440091164:android:168185a63a7fd014b333d9",
+        "android_client_info": {
+          "package_name": "com.example.project"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153440091164-rhfn5q6v6hnuatfckhc84sednhc4pau9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAenkjQ81iccAcWKXe6CIj9wJZtpXj6IsI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153440091164-rhfn5q6v6hnuatfckhc84sednhc4pau9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

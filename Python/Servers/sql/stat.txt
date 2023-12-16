@@ -1,0 +1,24 @@
+create table basic(
+    id serial primary key,
+    date varchar(100)
+);
+
+create table mounthly(
+    id serial primary key,
+    date varchar(100)
+);
+
+create table anually(
+    id serial primary key,
+    date varchar(100)
+);
+
+
+
+
+create table person(
+    id serial primary key,
+    date varchar(100),
+    year int,
+    month int
+);

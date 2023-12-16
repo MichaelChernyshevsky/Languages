@@ -1,0 +1,16 @@
+
+{% extends 'bodies/sql/body_universal.html' %}
+
+{% block title %}
+update
+{% endblock %}
+
+{% block body %}
+<h1>Update article</h1>
+<form method = "post">
+    <input type="text" name="title" id="title" value = "{{article.title}}" class="form-control"><br>
+    <textarea name="intro" id="intro"  class="form-control">{{article.intro}}</textarea>
+    <textarea name="text" id="text"  class="form-control">{{article.text}}</textarea>
+    <input type="submit" class="btn btn-success" value="Update">
+</form>
+{% endblock %}

@@ -1,0 +1,16 @@
+
+{% extends 'bodies/sql/body_universal.html' %}
+
+{% block title %}
+Sql
+{% endblock %}
+
+{% block body %}
+<h1>Create new article</h1>
+<form method = "post">
+    <input type="text" name="title" id="title" class="form-control"><br>
+    <textarea name="intro" id="intro" class="form-control"></textarea>
+    <textarea name="text" id="text" class="form-control"></textarea>
+    <input type="submit" class="btn btn-success" value="send">
+</form>
+{% endblock %}

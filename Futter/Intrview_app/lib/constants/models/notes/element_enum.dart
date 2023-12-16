@@ -1,0 +1,4 @@
+enum ElementNote {
+  folder,
+  note,
+}
